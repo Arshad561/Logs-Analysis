@@ -51,7 +51,7 @@ To load the data, cd into the vagrant directory and use the command ***psql -d n
 The required views are mentioned in **create_views.sql**<br>
 You need to just run this command ***psql -d news -f create_views.sql*** to create the views in database.<br>
 
-###### Once you have done all these steps, run this coomand ***python news.py*** to start the reporting tool. You will see the output in commandline
+###### Once you have done all these steps, run this command ***python news.py*** to start the reporting tool. You will see the output in commandline
 
 ### Summary:<br>
     vagrant up ---> to start up the VM.
